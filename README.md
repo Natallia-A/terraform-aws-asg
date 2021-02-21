@@ -8,7 +8,7 @@ This repo is used to work with November Group
 ```
 module "wordpress" {
   app_name         = "wordpress"
-  source           = "../Class4"
+  source           = "Natalia-A/aws/asg"
   aws_region       = "us-east-1"
   desired_capacity = 1
   max_size         = 1
